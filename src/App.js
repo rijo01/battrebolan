@@ -86,6 +86,9 @@ function Home() {
       <footer className="bg-white border-t py-8 text-center text-sm text-gray-500">
         <p>© {new Date().getFullYear()} BättreBolån.se – jämför smart, bind rätt.</p>
         <p className="mt-2">Kontakt: <a href="mailto:info@battrebolan.se" className="text-indigo-600">info@battrebolan.se</a></p>
+        <p className="mt-1">
+          <a href="/robots.txt" className="text-gray-400 hover:text-indigo-600">robots.txt</a> | <a href="/sitemap.xml" className="text-gray-400 hover:text-indigo-600">sitemap.xml</a>
+        </p>
       </footer>
     </div>
   );
